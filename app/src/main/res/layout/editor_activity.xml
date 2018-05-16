@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/EditorMasterLayoutStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        style="@style/EditorRowLayoutStyle" >
+
+        <TextView
+            style="@style/EditorTextStyles"
+            android:text="@string/editor_activity_title"/>
+
+        <EditText
+            android:id="@+id/editor_title"
+            style="@style/EditorEditTextStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/EditorRowLayoutStyle" >
+
+        <TextView
+            style="@style/EditorTextStyles"
+            android:text="@string/editor_activity_author"/>
+
+        <EditText
+            android:id="@+id/editr_author"
+            style="@style/EditorEditTextStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/EditorRowLayoutStyle">
+
+        <TextView
+            style="@style/EditorTextStyles"
+            android:text="@string/editor_do_you_own_this_book"/>
+
+        <RadioGroup
+            android:id="@+id/radio_book_ownership"
+            style="@style/RadioGroupStyle">
+            <RadioButton
+                android:id="@+id/radio__i_own_this_book"
+                style="@style/RadioButtonStyle"
+                android:text="@string/yes_message"/>
+            <RadioButton
+                android:id="@+id/radio_i_do_not_own_this_book"
+                style="@style/RadioButtonStyle"
+                android:text="@string/no_message"/>
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MasterLayoutStyle"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/books_you_own_layout"
+        style="@style/OwnershipPanelStyle">
+
+        <TextView
+            style="@style/OwnershipPanelTextStyle"
+            android:text="@string/panel_title_you_own"/>
+
+        <ListView
+            android:id="@+id/listViewId"
+            style="@style/ListViewStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/books_you_do_not_own_layout"
+        android:layout_below="@id/books_you_own_layout"
+        style="@style/OwnershipPanelStyle">
+
+        <TextView
+            style="@style/OwnershipPanelTextStyle"
+            android:text="@string/panel_title_you_do_not_own"/>
+
+        <ListView
+            android:id="@+id/listViewIdBooksYouDoNotOwn"
+            style="@style/ListViewStyle" />
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        style="@style/FabStyle"
+        android:clickable="true"
+        app:srcCompat="@drawable/add_button" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">BookManagementApp</string>
+    <string name="insertion_activity_label">Insert new entry</string>
+    <string name="editor_activity_label">Update entry</string>
+    <string name="editor_activity_title">Title</string>
+    <string name="editor_activity_author">Author</string>
+    <string name="editor_do_you_own_this_book">Do you own this book?</string>
+    <string name="menu_save">save</string>
+    <string name="menu_delete">Delete</string>
+    <string name="yes_message">Yes</string>
+    <string name="no_message">No</string>
+    <string name="panel_title_you_own">Books you own.</string>
+    <string name="panel_title_you_do_not_own">Books you do not own.</string>
+
+    <!-- Log messages-->
+    <string name="failed_to_insert">Failed to isnert row for </string>
+
+    <!-- Error messages-->
+    <string name="insertion_not_supported">Insertion is not supported for </string>
+    <string name="cannot_query">Cannot query unknown URI </string>
+    <string name="deletion_not_supported">Deletion is not supported for </string>
+    <string name="update_not_supported">Update is not supported for </string>
+    <string name="title_required">Title is required.</string>
+        <string name="gettype_error1">Unknown URI </string>
+        <string name="gettype_error2"> with match </string>
+
+    <!--Toast messages-->
+    <string name="saving_error">Error with saving entry.</string>
+    <string name="entry_saved">Entry saved.</string>
+    <string name="updating_error">Error with updating entry.</string>
+    <string name="entry_updated">Entry updated.</string>
+    <string name="empty_values_toast">Please fill in all entries.</string>
+    <string name="entry_deleted">Entry deleted.</string>
+    <string name="entr_deleted_error">Error when deleting entry.</string>
+
+    <!--Delete dialog messages -->
+    <string name="delete_dialog_message">Do you really want to delete this entry?</string>
+    <string name="delete_dialog_confirmation">DELETE</string>
+    <string name="delete_dialog_deny">Cancel</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="editor_activity_text_view_margin_left">8dp</dimen>
+    <dimen name="editor_activity_layout_item_margin">8dp</dimen>
+    <dimen name="item_activity_layout_margin">8dp</dimen>
+    <dimen name="item_text_margin">12dp</dimen>
+    <dimen name="ownership_panel_margin">8dp</dimen>
+
+    <dimen name="title_text_size">16sp</dimen>
+    <dimen name="author_text_size">10sp</dimen>
+</resources>
